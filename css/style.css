@@ -1,0 +1,54 @@
+nav ul{
+  list-style: none;
+  padding: 0px;
+  margin: 10px;
+  overflow: hidden;
+  text-align: center;
+}
+
+nav ul li {
+  float: left;
+  margin: 0 15px;
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  width: 100px;
+  padding: 10px 0px 8px 0px;
+  border-radius: 4px;
+  font-family: Calibri, sans-serif;
+}
+
+nav ul li a:hover{
+  text-decoration: underline;
+}
+
+nav ul li a #onpage{
+  background-color: navy;
+}
+
+body {
+  background: linear-gradient(to bottom,  #fceabb 0%,#f8b500 49%,#fbdf93 100%);
+  margin: 10px;
+  font-family: Georgia, serif;
+}
+
+h1 {
+  color: gray;
+  background-color: white;
+  font-weight: 800;
+  font-size: 1.5rem;
+  padding: 1rem;
+  font-family: Arial, sans-serif;
+}
+
+h2, h3, h4 {
+  font-family: Verdana, sans-serif;
+  font-size: 1.2rem;
+}
