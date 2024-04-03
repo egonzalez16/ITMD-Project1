@@ -1,23 +1,28 @@
-nav ul{
-  list-style: none;
-  padding: 0px;
-  margin: 10px;
+nav {
+  background-color: blue;
   overflow: hidden;
-  text-align: center;
+}
+
+nav ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  left: 50%;
+  float: left;
 }
 
 nav ul li {
   float: left;
-  margin: 0 15px;
-  display: inline-block;
+  display: block;
+  position: relative;
+  right: 50%;
 }
 
 nav ul li a {
   display: block;
-  background-color: blue;
   color: white;
   font-weight: bold;
-  text-decoration: none;
   text-align: center;
   width: 100px;
   padding: 10px 0px 8px 0px;
@@ -26,17 +31,18 @@ nav ul li a {
 }
 
 nav ul li a:hover{
-  text-decoration: underline;
+  background-color: black;
 }
 
-nav ul li a #onpage{
+#onpage{
+  background-color: cyan;
   text-decoration: underline;
 }
 
 body {
   background: linear-gradient(to bottom,  #fceabb 0%,#f8b500 49%,#fbdf93 100%);
   margin: 10px;
-  font-family: Georgia, serif;
+  font-family: Georgia, sans-serif;
 }
 
 h1 {
@@ -56,8 +62,10 @@ h2, h3, h4 {
 
 img {
   height: 12rem;
+  position: relative;
 }
 
 iframe {
   height: 15rem;
+  float: right;
 }
